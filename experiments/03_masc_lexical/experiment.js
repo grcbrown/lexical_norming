@@ -38,7 +38,7 @@ for (let i = 0; i < trial_objects_shuffle.length; i++) {
         ticks: false,
         required: true,
         //response_ends_trial: true,
-        trial_duration: 10000,
+        trial_duration: 30000,
         data: {
             expected: trial_objects_shuffle[i].expected,
             triplet_id: trial_objects_shuffle[i].triplet_id
@@ -57,7 +57,7 @@ for (let i = 0; i < trial_objects_shuffle.length; i++) {
              data: {
                 correct: trial_objects_shuffle[i].correct
             },
-             trial_duration: 10000,
+             trial_duration: 30000,
              //response_ends_trial: true,
              on_finish: function(data) {
                 jsPsych.setProgressBar((data.trial_index - 1) / (timeline.length + trial_objects_shuffle.length));
@@ -90,7 +90,7 @@ const gender_ideology = {
             ticks: false,
             required: true,
             //response_ends_trial: true,
-            trial_duration: 10000,
+            trial_duration: 30000,
             data: {
                 coding: jsPsych.timelineVariable('coding')
             },
