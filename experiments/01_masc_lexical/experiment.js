@@ -21,7 +21,7 @@ timeline.push(irb);
 //INSTRUCTIONS//
 const instructions = {
     type: jsPsychHtmlButtonResponse,
-    stimulus: "<p><font size='3'>In this experiment, you will read a series of sentences. Each sentence has been produced by a different speaker. After reading each sentence, you will be asked to rate the social characteristics of its speaker. To rate the social characteristics of a speaker, click along the scale. After providing your rating, you can proceed to the next trial by clicking 'Continue'. Some trials will have comprehension questions. To complete these, click on the button with the correct answer. <br><br>When you're ready to begin, click ‘Start’.</font></p>",
+    stimulus: "<p><font size='3'>In this experiment, you will read a series of sentences. Each sentence has been produced by a different speaker. After reading each sentence, you will be asked to rate the social characteristics of its speaker. To rate the social characteristics of a speaker, click along the scale. After providing your rating, you can proceed to the next trial by clicking 'Continue'. Some trials will have comprehension questions. To complete these, click on the button with the correct answer. Please complete each trial as quickly as possible. <br><br>When you're ready to begin, click ‘Start’.</font></p>",
     choices: ['Start']
 };
 
